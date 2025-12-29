@@ -1,0 +1,67 @@
+# --- Unity Core Ignores ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# --- Asset Store & Plugin Ignores ---
+[Aa]ssets/AssetStoreTools*
+[Aa]ssets/Plugins/Editor/JetBrains*
+/ServerData/
+
+# --- IDE & System Ignores ---
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+*.sln.docstates
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Build & Binary Output ---
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- Unity Generated Meta/Crash Files ---
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+mono_crash.*
+
+# --- Visual Scripting ---
+[Aa]ssets/Unity.VisualScripting.Generated/
+[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# --- Others ---
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
