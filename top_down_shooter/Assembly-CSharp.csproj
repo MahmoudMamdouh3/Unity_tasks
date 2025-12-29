@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{0e53d099-df10-f266-e31d-2c6f8af5b108}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Unity.Rider.Editor\</OutputPath>
+    <DefineConstants>UNITY_EDITOR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems\package.json" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@66e99ffa09c7\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize\package.json" />
+    <None Include="Library\PackageCache\com.unity.burst@21aa83e7fd8f\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth\package.json" />
+    <None Include="Library\PackageCache\com.unity.test-framework.performance@0840f58e4562\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture\package.json" />
+    <None Include="Library\PackageCache\com.unity.inputsystem@02433b2481ab\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai\package.json" />
+    <None Include="Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\README.txt" />
+    <None Include="Library\PackageCache\com.unity.inputsystem@02433b2481ab\ValidationConfig.json" />
+    <None Include="Library\PackageCache\com.unity.ugui@52e65280e89e\package.json" />
+    <None Include="Library\PackageCache\com.unity.2d.tilemap@28bd01071fd5\package.json" />
+    <None Include="Library\PackageCache\com.unity.ext.nunit@d8c07649098d\package.json" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle\package.json" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce86d16dfe9d\Shaders\CoreCopy.shader" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap\package.json" />
+    <None Include="Library\PackageCache\com.unity.test-framework.performance@0840f58e4562\ValidationExceptions.json" />
+    <None Include="Library\PackageCache\com.unity.timeline@6b9e48457ddb\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility\package.json" />
+    <None Include="Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb\ValidationConfig.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics\package.json" />
+    <None Include="Library\PackageCache\com.unity.mathematics@19a9377c4ffa\package.json" />
+    <None Include="Library\PackageCache\com.unity.burst@21aa83e7fd8f\ValidationExceptions.json" />
+    <None Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\package.json" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@3351acaba9c9\package.json" />
+    <None Include="Library\PackageCache\com.unity.ugui@52e65280e89e\PackageConversionData.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle\package.json" />
+    <None Include="Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb\package.json" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce86d16dfe9d\ValidationConfig.json" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce86d16dfe9d\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion\package.json" />
+    <None Include="Library\PackageCache\com.unity.shadergraph@3cfe1d1f3f8c\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics\package.json" />
+    <None Include="Library\PackageCache\com.unity.ide.rider@1f60b3138684\package.json" />
+    <None Include="Library\PackageCache\com.unity.searcher@d45a78918735\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video\package.json" />
+    <None Include="Library\PackageCache\com.unity.shadergraph@3cfe1d1f3f8c\ValidationConfig.json" />
+    <None Include="Library\PackageCache\com.unity.ide.rider@1f60b3138684\ValidationExceptions.json" />
+    <None Include="Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\package.json" />
+    <None Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\ValidationExceptions.json" />
+    <None Include="Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr\package.json" />
+    <None Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\ValidationExceptions.json" />
+    <None Include="Library\PackageCache\com.unity.2d.common@51e9484895c4\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vectorgraphics\package.json" />
+    <None Include="Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb\ValidationExceptions.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra\package.json" />
+    <None Include="Library\PackageCache\com.unity.2d.tilemap.extras@3dde84bf3867\package.json" />
+    <None Include="Library\PackageCache\com.unity.inputsystem@02433b2481ab\ValidationExceptions.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics\package.json" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@66e99ffa09c7\ValidationExceptions.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles\package.json" />
+    <None Include="Library\PackageCache\com.unity.shadergraph@3cfe1d1f3f8c\GraphTemplates\Cross Pipeline\GetSceneNormal.hlsl" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore\package.json" />
+    <None Include="Library\PackageCache\com.unity.ugui@52e65280e89e\Editor Resources\Shaders\TMP_SDF_SSD.cginc" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@3351acaba9c9\ValidationConfig.json" />
+    <None Include="Library\PackageCache\com.unity.shadergraph@3cfe1d1f3f8c\GraphTemplates\Subgraphs\CanvasLinearSpaceConversion.hlsl" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr\package.json" />
+    <None Include="Library\PackageCache\com.unity.ugui@52e65280e89e\Editor Resources\Shaders\TMP_Properties.cginc" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.adaptiveperformance\package.json" />
+    <None Include="Library\PackageCache\com.unity.timeline@6b9e48457ddb\ValidationExceptions.json" />
+    <None Include="Library\PackageCache\com.unity.ugui@52e65280e89e\Editor Resources\Shaders\TMP_SDF Internal Editor.shader" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director\package.json" />
+    <None Include="Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7\package.json" />
+    <None Include="Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\ValidationConfig.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain\package.json" />
+    <None Include="Library\PackageCache\com.unity.2d.tooling@55ff0338cdce\package.json" />
+    <None Include="Library\PackageCache\com.unity.2d.sprite@82f01c8c75ca\package.json" />
+    <None Include="Library\PackageCache\com.unity.collections@aea9d3bd5e19\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni\package.json" />
+    <None Include="Library\PackageCache\com.unity.ugui@52e65280e89e\PackageConversionData_Assets.json" />
+    <None Include="Library\PackageCache\com.unity.2d.spriteshape@0738bab11647\package.json" />
+    <None Include="Library\PackageCache\com.unity.mathematics@19a9377c4ffa\ValidationExceptions.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation\package.json" />
+    <None Include="Library\PackageCache\com.unity.2d.animation@3c53dae92956\package.json" />
+    <None Include="Library\PackageCache\com.unity.collections@aea9d3bd5e19\pvpExceptions.json" />
+    <None Include="Library\PackageCache\com.unity.burst@21aa83e7fd8f\Unity.Burst.Unsafe.xml" />
+    <None Include="Library\PackageCache\com.unity.2d.psdimporter@9abe0f7cac7e\package.json" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.universal@66e99ffa09c7\ValidationConfig.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest\package.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements\package.json" />
+    <None Include="Library\PackageCache\com.unity.collections@aea9d3bd5e19\ValidationExceptions.json" />
+    <None Include="C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui\package.json" />
+    <None Include="Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a\package.json" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.2f1-x86_64\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
